@@ -11,7 +11,7 @@ int main()
         {
             for (int j = 0; j < n - i - 1; j++)
             {
-                if (arr[j] > arr[j + 1])
+                if (arr[j] > arr[j + 1])// 1, 5, 3, 4, 6
                 {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
